@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageTutorial.MainPage">
+    <StackLayout Margin="20,35,20,20">
+        <Image Source="https://2.bp.blogspot.com/-XAHy_xHL9pU/WfQ2H6arICI/AAAAAAABWg4/iafsw6Di7qYn-gzCIyl3YMcrb4Js-8irwCLcBGAs/s1600/1507302398_chernyy19.jpg"
+       Aspect="Fill"
+       HeightRequest="{OnPlatform iOS=300, Android=250}"
+       WidthRequest="{OnPlatform iOS=300, Android=250}"
+       HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
